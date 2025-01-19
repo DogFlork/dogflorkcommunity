@@ -1,0 +1,210 @@
+/*?----------------------------------------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+/** What Is Styles Start */
+
+.what-is-layout {
+    margin-top: 9rem;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.what-is-div {
+    width: 30%;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #7FC1FF;
+    border: 0.1rem solid #ffffff;
+    border-radius: 3rem;
+    margin-bottom: 20rem;
+    padding: 1rem;
+}
+
+.what-is-h2 {
+    font-family: 'Bree Serif', serif;
+    font-size: 5rem;
+    color: #389EFF;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.what-is-p {
+    font-family: 'Bree Serif', serif;
+    font-size: 2rem;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.what-is-div2 {
+    height: 45rem;
+}
+
+.what-is-logo {
+    width: 16rem;
+    height: 16rem;
+}
+
+.what-is-div5 {
+    height: 35rem;
+}
+
+.what-is-div-5-div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.what-is-div-5-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.what-is-socialmedia-i {
+    font-size: 8rem;
+    color: #ffffff;
+    transition: all 300ms ease-in-out;
+    padding: 3rem;
+}
+
+.what-is-socialmedia-i:hover {
+    color: #3291E5;
+}
+
+.what-is-p-2 {
+    margin-top: 2rem;
+    color: #389EFF;
+}
+
+.what-is-p-3 {
+    transition: all 300ms ease-in-out;
+    cursor: pointer;
+}
+
+.what-is-p-3:hover {
+    color: #389EFF;
+}
+
+#copy-alert {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    font-size: 1.6rem;
+    text-align: center;
+    z-index: 1000;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+#copy-alert.visible {
+    opacity: 1;
+}
+
+.hidden {
+    display: none;
+}
+
+.what-is-wherebuy-img {
+    width: 15rem;
+    height: 15rem;
+    transition: all 300ms ease-in-out;
+    padding: 3rem;
+}
+
+.what-is-wherebuy-img:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 1630px) {
+    .what-is-div {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 1225px) {
+    .what-is-div {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .what-is-div {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .what-is-div {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .what-is-div {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .what-is-div {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .what-is-h2 {
+        font-size: 4rem;
+    }
+
+    .what-is-p {
+        font-size: 1.5rem;
+    }
+
+    .what-is-wherebuy-img {
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .what-is-socialmedia-i {
+        font-size: 6rem;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .what-is-h2 {
+        font-size: 3.5rem;
+    }
+
+    .what-is-p {
+        font-size: 1.2rem;
+    }
+
+    .what-is-wherebuy-img {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .what-is-socialmedia-i {
+        font-size: 5rem;
+    }
+}
+
+/** What Is Styles End */
+
+/*?----------------------------------------------------------------------------------------------------*/
