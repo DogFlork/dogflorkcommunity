@@ -65,7 +65,7 @@ changeLanguage.addEventListener('click', function () {
     let lang = localStorage.getItem('lang');
     if (lang === 'en') {
         localStorage.setItem('lang', 'es');
-        languageLogo.src = '../03-assets/img/10-eng_flag.png';
+        languageLogo.src = '.././03-assets/img/10-eng_flag.png';
         hidden.textContent = 'Contrato copiado';
         //!
         headerText.textContent = 'DogFlork - Comunidad';
@@ -90,7 +90,7 @@ changeLanguage.addEventListener('click', function () {
         whatIsP11.textContent = "Ayuda a $DogFlork a llegar a la luna";
     } else {
         localStorage.setItem('lang', 'en');
-        languageLogo.src = '../03-assets/img/09-esp_flag.png';
+        languageLogo.src = '.././03-assets/img/09-esp_flag.png';
         hidden.textContent = 'Contract copied';
         //!
         headerText.textContent = 'DogFlork - Community';
@@ -118,7 +118,7 @@ changeLanguage.addEventListener('click', function () {
 function checkLanguage() {
     let lang = localStorage.getItem('lang');
     if (lang === 'es') {
-        languageLogo.src = '../03-assets/img/10-eng_flag.png';
+        languageLogo.src = '.././03-assets/img/10-eng_flag.png';
         hidden.textContent = 'Contrato copiado';
         //!
         headerText.textContent = 'DogFlork - Comunidad';
@@ -143,7 +143,7 @@ function checkLanguage() {
         whatIsP11.textContent = "Ayuda a $DogFlork a llegar a la luna";
     } else {
         localStorage.setItem('lang', 'en');
-        languageLogo.src = '../03-assets/img/09-esp_flag.png';
+        languageLogo.src = '.././03-assets/img/09-esp_flag.png';
         hidden.textContent = 'Contract copied';
         //!
         headerText.textContent = 'DogFlork - Community';
